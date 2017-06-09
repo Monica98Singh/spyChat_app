@@ -1,10 +1,3 @@
-'''spy={
-'spy_name':'George Smiley',
-'spy_salutation':'Mr.',
-'spy_age':25,
-'spy_rating':3.6,
-'spy_online_status':True
-}'''
 from datetime import datetime
 
 class Spy:
