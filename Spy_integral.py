@@ -107,7 +107,6 @@ def read_msg():   # reading the decoded msg using Steganography
     a = dic_special_words.keys()        # obtaining keys from the dictionary of special words
 
     place = 0
-    print 'Special words in message is:'
     for x in a:
         if x in split_msg:
             print 'Special words in msg %s: %s' %(x, dic_special_words.get(x))       # printing the special word with its value
